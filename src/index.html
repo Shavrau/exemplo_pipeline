@@ -1,6 +1,38 @@
-<Header>
-    AAAAAAAAAAAAAA
-</Header>
-<Body>
-    AAAAAAAAAA
-</Body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Pipeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Exemplo de Pipeline</h1>
+        <p>Este é um exemplo de pipeline de CI/CD com GitHub Actions.</p>
+        <div>
+            <h2>Último deploy</h2>
+            <p id="deploy-time">Este deploy foi feito em .</p>
+        </div>
+        <div>
+            <h2>Calculadora</h2>
+            <input type="number" id="num1" placeholder="Número 1">
+            <input type="number" id="num2" placeholder="Número 2">
+            <button id="calculate">Calcular Soma e Reproduzir Áudio</button>
+            <p id="result">Resultado: </p>
+        </div>
+    </div>
+    
+    <!-- Adicionando o áudio -->
+    <audio id="background-audio">
+        <source src="assets/LimaOscarLima.mp3" type="audio/mpeg"> <!-- Substitua pelo caminho do seu arquivo de áudio -->
+        Seu navegador não suporta o elemento <code>audio</code>.
+    </audio>
+    
+    <footer>
+        <p>&copy; 2024 Malphite Whatzap. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="page.js" defer></script>
+</body>
+</html>

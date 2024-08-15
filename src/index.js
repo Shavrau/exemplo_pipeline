@@ -1,4 +1,6 @@
-function soma(a, b) {
-    return a + b;
+// src/index.js
+function soma() {
+    return "Hello World";
   }
+  
   module.exports = soma;

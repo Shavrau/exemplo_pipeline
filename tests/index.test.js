@@ -1,5 +1,7 @@
 const soma = require('../src/index');
 
-test('soma 1 + 2 para igualar 3', () => {
-  expect(soma(1, 2)).toBe(3);
+describe('Função soma', () => {
+  test('deve retornar "Hello World"', () => {
+    expect(soma()).toBe("Hello World");
+  });
 });
